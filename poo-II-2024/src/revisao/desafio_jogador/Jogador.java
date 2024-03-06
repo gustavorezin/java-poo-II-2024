@@ -1,14 +1,11 @@
-package revisao_desafio_jogador;
+package revisao.desafio_jogador;
 
 public class Jogador {
-	private String nome;
-	private int numeroCamisa;
-	private int gols;
+	private String nome = "";
+	private int numeroCamisa = 999;
+	private int gols = -1;
 	
 	public Jogador() {
-		setNome("");
-		setNumeroCamisa(999);
-		setGols(-1); // Estrategia para saber que nao foi cadastrado ainda
 	}
 
 	public Jogador(String nome, int numeroCamisa, int gols) {

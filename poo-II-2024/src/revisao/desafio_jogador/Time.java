@@ -1,13 +1,13 @@
-package revisao_desafio_jogador;
+package revisao.desafio_jogador;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Time {
-	private String nome;
-	private List<Jogador> jogadores;
+	private String nome = "";
+	private List<Jogador> jogadores = new ArrayList<>();
 	
 	public Time() {
-		setNome("");
 	}
 	
 	public Time(String nome, List<Jogador> jogadores) {

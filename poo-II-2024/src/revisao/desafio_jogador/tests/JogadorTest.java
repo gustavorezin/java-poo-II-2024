@@ -1,11 +1,11 @@
-package revisao_desafio_jogador.tests;
+package revisao.desafio_jogador.tests;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import revisao_desafio_jogador.Jogador;
+import revisao.desafio_jogador.Jogador;
 
 class JogadorTest {
 
