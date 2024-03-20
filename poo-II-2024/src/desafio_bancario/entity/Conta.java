@@ -3,9 +3,9 @@ package desafio_bancario.entity;
 import desafio_bancario.constants.TipoConta;
 
 public class Conta {
-	protected int numero = 0;
-	protected double saldo = 0;
-	protected TipoConta tipo = TipoConta.CORRENTE;
+	private int numero = 0;
+	private double saldo = 0;
+	private TipoConta tipo = TipoConta.CORRENTE;
 	
 	public Conta() {
 	}

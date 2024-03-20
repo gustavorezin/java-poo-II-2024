@@ -7,12 +7,12 @@ public class ContaEspecial extends Conta {
 	
 
 	public ContaEspecial() {
-		this.tipo = TipoConta.ESPECIAL;
+		setTipo(TipoConta.ESPECIAL);
 	}
 	
 	public ContaEspecial(int numero, double saldo, double limiteNegativo) {
 		super(numero, saldo);
-		this.tipo = TipoConta.ESPECIAL;
+		setTipo(TipoConta.ESPECIAL);
 		this.limiteNegativo = limiteNegativo;
 	}
 
@@ -26,8 +26,8 @@ public class ContaEspecial extends Conta {
 
 	@Override
 	public void sacar(double valor) {
-		if (saldo + limiteNegativo >= valor) {
-			saldo -= valor;
+		if (getSaldo() + limiteNegativo >= valor) {
+			setSaldo(getSaldo() - valor);
 		}
 	}
 	

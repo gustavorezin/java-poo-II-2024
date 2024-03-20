@@ -6,12 +6,12 @@ public class ContaPoupanca extends Conta {
 	private static int limiteOperacoesSaque = 5;
 
 	public ContaPoupanca() {
-		this.tipo = TipoConta.POUPANCA;
+		setTipo(TipoConta.POUPANCA);
 	}
 
 	public ContaPoupanca(int numero, double saldo) {
 		super(numero, saldo);
-		this.tipo = TipoConta.POUPANCA;
+		setTipo(TipoConta.POUPANCA);
 	}
 	
 	public int getLimiteOperacoesSaque() {
@@ -20,8 +20,8 @@ public class ContaPoupanca extends Conta {
 
 	@Override
 	public void sacar(double valor) {
-		if (saldo >= valor && limiteOperacoesSaque > 0) {
-			saldo -= valor;
+		if (getSaldo() >= valor && limiteOperacoesSaque > 0) {
+			setSaldo(getSaldo() - valor);
 			limiteOperacoesSaque--;
 		}
 	}
