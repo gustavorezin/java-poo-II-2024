@@ -1,0 +1,12 @@
+1, As formigas têm pulmões, erro
+2, A Terra leva 365 dias para dar uma volta completa em torno do Sol, acerto
+3, O número pi é uma constante irracional, acerto
+4, As vacas só produzem leite quando estão grávidas, acerto
+5, O Sol é uma estrela, acerto
+6, O diamante é formado a partir do carvão, erro
+7, Os gatos têm nove vidas, erro
+8, O açúcar mascavo é mais saudável que o açúcar refinado, erro
+9, A tartaruga é o animal mais longevo do mundo, acerto
+10, O calor flui do corpo mais frio para o mais quente, erro
+
+Acertos: 5

@@ -1,0 +1,50 @@
+O Sol é uma estrela, Verdadeiro
+O Papa é o líder da Igreja Ortodoxa, Falso
+O DNA é composto por três cadeias de nucleotídeos, Falso
+A Grande Muralha da China é visível do espaço, Falso
+A água ferve a 100 graus Celsius ao nível do mar, Verdadeiro
+O chocolate é tóxico para os cães, Verdadeiro
+O rio Nilo é o rio mais longo do mundo, Verdadeiro
+A Lua tem sua própria luz, Falso
+O diamante é a substância mais dura encontrada na natureza, Verdadeiro
+Os camelos armazenam água em suas corcovas, Falso
+As bananas crescem em árvores, Verdadeiro
+O fogo é uma forma de matéria, Falso
+O átomo é a menor unidade de matéria, Verdadeiro
+Os ursos polares são nativos da Antártica, Falso
+O Brasil é o maior país da América do Sul em área territorial, Verdadeiro
+As avestruzes enterram suas cabeças na areia quando estão assustadas, Falso
+O oxigênio é o gás mais abundante na atmosfera terrestre, Verdadeiro
+O plástico é biodegradável, Falso
+O diamante é feito de carbono, Verdadeiro
+A tartaruga é o animal mais longevo do mundo, Verdadeiro
+A água tem um pH neutro, Falso
+O café desidrata o corpo, Verdadeiro
+O Monte Everest é a montanha mais alta do mundo, Verdadeiro
+As vacas só produzem leite quando estão grávidas, Verdadeiro
+Os humanos só usam 10% de seus cérebros, Falso
+Os gatos têm nove vidas, Falso
+A energia solar é renovável, Verdadeiro
+A pimenta faz o cabelo crescer mais rápido, Falso
+O músculo mais forte do corpo humano é a língua, Falso
+A Coca-Cola originalmente continha cocaína, Verdadeiro
+As bananas são consideradas berries, Verdadeiro
+A maçã é a fruta mais consumida no mundo, Falso
+Os tubarões não têm ossos, Verdadeiro
+A ostra muda de sexo durante a vida, Verdadeiro
+Os pingüins são pássaros, Verdadeiro
+O vinho tinto é feito apenas de uvas vermelhas, Falso
+A Terra leva 365 dias para dar uma volta completa em torno do Sol, Verdadeiro
+A velocidade da luz é constante, Verdadeiro
+As baleias são mamíferos, Verdadeiro
+A teoria da evolução foi proposta por Charles Darwin, Verdadeiro
+A Lua tem atmosfera, Falso
+As abelhas são atraídas pela cor vermelha, Falso
+O mármore é uma rocha sedimentar, Falso
+A abóbora é uma fruta, Verdadeiro
+O calor flui do corpo mais frio para o mais quente, Falso
+O número pi é uma constante irracional, Verdadeiro
+As formigas têm pulmões, Falso
+O diamante é formado a partir do carvão, Falso
+A planta de cannabis é nativa da África, Falso
+O açúcar mascavo é mais saudável que o açúcar refinado, Falso
