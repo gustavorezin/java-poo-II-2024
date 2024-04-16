@@ -3,20 +3,18 @@ package file.desafio;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
-import java.util.Random;
 
 public class ArquivoPergunta {
 	private List<Pergunta> perguntas = new ArrayList<>();
-	private String path;
 
 	public ArquivoPergunta() {
 	}
 
-	public ArquivoPergunta(List<Pergunta> perguntas, String path) {
+	public ArquivoPergunta(List<Pergunta> perguntas) {
 		super();
 		this.perguntas = perguntas;
-		this.path = path;
 	}
 
 	public List<Pergunta> getPerguntas() {
@@ -27,18 +25,10 @@ public class ArquivoPergunta {
 		this.perguntas = perguntas;
 	}
 
-	public String getPath() {
-		return path;
-	}
-
-	public void setPath(String path) {
-		this.path = path;
-	}
-
 	public void lerArquivoPergunta() {
 		try {
 			List<Pergunta> perguntas = new ArrayList<>();
-			FileReader fr = new FileReader(getPath());
+			FileReader fr = new FileReader("./src/file/desafio/perguntas.txt");
 			BufferedReader br = new BufferedReader(fr);
 			String linha = "";
 			while ((linha = br.readLine()) != null) {
@@ -57,15 +47,14 @@ public class ArquivoPergunta {
 	}
 
 	public List<Pergunta> sortearPerguntas() {
-		// "./src/file/desafio/perguntas.txt"
 		int tamanhoLista = getPerguntas().size();
 		if (tamanhoLista > 0) {
 			List<Pergunta> perguntasSorteadas = new ArrayList<>();
-			Random random = new Random();
+
+			Collections.shuffle(getPerguntas());
 
 			for (int i = 0; i < 10; i++) {
-				int indiceSorteado = random.nextInt(tamanhoLista);
-				perguntasSorteadas.add(getPerguntas().get(indiceSorteado));
+				perguntasSorteadas.add(getPerguntas().get(i));
 			}
 
 			return perguntasSorteadas;

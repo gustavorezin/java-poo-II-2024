@@ -1,12 +1,12 @@
-1, As formigas têm pulmões, erro
-2, A Terra leva 365 dias para dar uma volta completa em torno do Sol, acerto
-3, O número pi é uma constante irracional, acerto
+1, A abóbora é uma fruta, acerto
+2, O diamante é formado a partir do carvão, erro
+3, A água tem um pH neutro, erro
 4, As vacas só produzem leite quando estão grávidas, acerto
-5, O Sol é uma estrela, acerto
-6, O diamante é formado a partir do carvão, erro
-7, Os gatos têm nove vidas, erro
-8, O açúcar mascavo é mais saudável que o açúcar refinado, erro
-9, A tartaruga é o animal mais longevo do mundo, acerto
-10, O calor flui do corpo mais frio para o mais quente, erro
+5, O Brasil é o maior país da América do Sul em área territorial, acerto
+6, A Coca-Cola originalmente continha cocaína, acerto
+7, O rio Nilo é o rio mais longo do mundo, acerto
+8, O plástico é biodegradável, erro
+9, As formigas têm pulmões, erro
+10, A maçã é a fruta mais consumida no mundo, erro
 
 Acertos: 5

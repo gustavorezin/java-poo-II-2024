@@ -1,12 +1,12 @@
-1, As formigas têm pulmões, erro
-2, As vacas só produzem leite quando estão grávidas, acerto
-3, A pimenta faz o cabelo crescer mais rápido, erro
-4, Os gatos têm nove vidas, erro
-5, A planta de cannabis é nativa da África, erro
-6, O calor flui do corpo mais frio para o mais quente, erro
-7, Os tubarões não têm ossos, acerto
-8, As abelhas são atraídas pela cor vermelha, erro
-9, A maçã é a fruta mais consumida no mundo, erro
-10, O açúcar mascavo é mais saudável que o açúcar refinado, erro
+1, A abóbora é uma fruta, acerto
+2, O diamante é formado a partir do carvão, erro
+3, A água tem um pH neutro, erro
+4, As vacas só produzem leite quando estão grávidas, acerto
+5, O Brasil é o maior país da América do Sul em área territorial, acerto
+6, A Coca-Cola originalmente continha cocaína, acerto
+7, O rio Nilo é o rio mais longo do mundo, acerto
+8, O plástico é biodegradável, erro
+9, As formigas têm pulmões, erro
+10, A maçã é a fruta mais consumida no mundo, erro
 
-Acertos: 2
+Acertos: 5

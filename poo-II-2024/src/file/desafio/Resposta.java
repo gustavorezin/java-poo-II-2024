@@ -1,34 +1,24 @@
 package file.desafio;
 
 public class Resposta {
-	private int id;
-	private String pergunta;
+	private Pergunta pergunta;
 	private String resultado;
 
 	public Resposta() {
 		super();
 	}
 
-	public Resposta(int id, String pergunta, String resultado) {
+	public Resposta(Pergunta pergunta, String resultado) {
 		super();
-		this.id = id;
 		this.pergunta = pergunta;
 		this.resultado = resultado;
 	}
 
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
-	public String getPergunta() {
+	public Pergunta getPergunta() {
 		return pergunta;
 	}
 
-	public void setPergunta(String pergunta) {
+	public void setPergunta(Pergunta pergunta) {
 		this.pergunta = pergunta;
 	}
 
@@ -42,7 +32,12 @@ public class Resposta {
 
 	@Override
 	public String toString() {
-		return getId() + ", " + getPergunta() + ", " + getResultado();
+		return getPergunta().getTitulo() + ", " + getResultado();
+	}
+
+	public String conferirResposta(int resposta) {
+		boolean respostaEscolhida = resposta == 0 ? true : false;
+		return getPergunta().isRespostaCorreta() == respostaEscolhida ? "acerto" : "erro";
 	}
 
 }

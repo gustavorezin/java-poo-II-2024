@@ -1,37 +1,31 @@
 package file.desafio;
 
 public class Pergunta {
-	private String pergunta;
-	private boolean resposta;
+	private String titulo;
+	private boolean respostaCorreta;
 
 	public Pergunta() {
 		super();
 	}
 
-	public Pergunta(String pergunta, String resposta) {
-		this.pergunta = pergunta;
-		this.resposta = resposta.equalsIgnoreCase("Verdadeiro");
+	public Pergunta(String titulo, String resposta) {
+		this.titulo = titulo;
+		this.respostaCorreta = resposta.equalsIgnoreCase("Verdadeiro");
 	}
 
-	public String getPergunta() {
-		return pergunta;
+	public String getTitulo() {
+		return titulo;
 	}
 
-	public void setPergunta(String pergunta) {
-		this.pergunta = pergunta;
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
 	}
 
-	public boolean isResposta() {
-		return resposta;
+	public boolean isRespostaCorreta() {
+		return respostaCorreta;
 	}
 
-	public void setResposta(boolean resposta) {
-		this.resposta = resposta;
+	public void setRespostaCorreta(boolean respostaCorreta) {
+		this.respostaCorreta = respostaCorreta;
 	}
-
-	public String conferirResposta(int resposta) {
-		boolean respostaEscolhida = resposta == 0 ? true : false;
-		return isResposta() == respostaEscolhida ? "acerto" : "erro";
-	}
-
 }
